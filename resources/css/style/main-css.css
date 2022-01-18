@@ -1,0 +1,41 @@
+:root {
+    --main-color: #4e6f4f;
+    --gary: #8e8e8e;
+}
+
+.bg-main {
+    background-color: var(--main-color) !important;
+}
+
+body {
+    margin: 0;
+}
+
+.box {
+    background-color: white;
+    box-shadow: 0 0 0 1px hsl(0deg 0% 72% / 10%), 0 2px 3px hsl(0deg 0% 55% / 20%);
+    position: relative;
+}
+
+.content {
+    margin: 60px 0;
+}
+
+.btn-main {
+    background-color: var(--main-color) !important;
+    border-color: var(--main-color) !important;
+    color: white !important;
+}
+
+.btn-main:hover {
+    background-color: white !important;
+    color: var(--main-color) !important;
+}
+
+.btn-main:focus {
+    box-shadow: none !important;
+}
+
+.c-main {
+    color: var(--main-color) !important;
+}

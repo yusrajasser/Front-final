@@ -1,0 +1,31 @@
+.item1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    border-radius: 0.25rem;
+    border: 1px solid var(--main-color);
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--gary);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.item1 i {
+    font-size: 45px;
+    color: var(--main-color);
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.item1:hover{
+    background-color: var(--main-color);
+    color: white;
+}
+
+
+.item1:hover i{
+    color: white;
+}
